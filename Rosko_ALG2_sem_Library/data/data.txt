@@ -1,0 +1,42 @@
+name=Pit at the Bottom of Hell
+author=Chris Noose
+code=56254
+pages=666
+publicationDate=662342400
+#/#
+name=Mislostny trojuhelnik v domove duchodcu
+author=Aneta Zhava
+code=69699
+pages=639
+publicationDate=1543017600
+#/#
+name=Oci na konci chodby
+author=Adam Strela
+code=55668
+pages=550
+publicationDate=1433462400
+#/#
+name=Rudolfuv velky pytel tajemstvi
+author=Sabina Hozakova
+code=12016
+pages=380
+publicationDate=1326067200
+#/#
+name=Deduv popel
+author=Marie Polakova
+code=44105
+pages=352
+publicationDate=465782400
+#/#
+name=Pain Train of Love
+author=John Marsh
+code=20209
+pages=295
+publicationDate=1102550400
+#/#
+name=Cesta do klastera
+author=Oldrich Parek
+code=89110
+pages=210
+publicationDate=1265155200
+#/#
