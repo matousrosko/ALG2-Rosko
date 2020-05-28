@@ -125,6 +125,7 @@ public class Main {
             repository.addBook(name, author, code, pages, publicationDate);
         } catch (ParseException | InputMismatchException | IllegalArgumentException e) {
             System.out.println("Zadany neplatne informace");
+            sc.nextLine(); // safeguard for enter button after inputing int value
         }
     }
 

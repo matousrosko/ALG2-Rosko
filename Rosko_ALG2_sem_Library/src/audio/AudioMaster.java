@@ -24,7 +24,7 @@ import org.lwjgl.system.libc.LibCStdlib;
 /**
  * 
  *
- * @author rosko
+ * @author Matouš
  */
 public class AudioMaster {
 

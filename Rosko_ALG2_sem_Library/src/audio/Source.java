@@ -4,7 +4,7 @@ import org.lwjgl.openal.AL10;
 
 /**
  *
- * @author rosko
+ * @author Matouš
  */
 public class Source {
 	private int sourceID;

@@ -3,8 +3,17 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_BookRental/src/ui/Main.java</file>
-            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_BookRental/src/utils/DateConvertor.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/app/RepositoryInterface.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/utils/DateConvertor.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/ui/Main.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/app/AuthorComparator.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/audio/Source.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/app/Repository.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/app/PagesComparator.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/audio/AudioMaster.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/app/Book.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/app/PublicationDateComparator.java</file>
+            <file>file:/D:/Main/Z-Other/ALG/NetBeansProjects/GIT/Rosko_ALG2_sem_Library/src/app/NameComparator.java</file>
         </group>
     </open-files>
 </project-private>
