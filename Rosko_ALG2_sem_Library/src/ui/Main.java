@@ -113,7 +113,7 @@ public class Main {
             sc.nextLine(); // safeguard for enter button after inputing int value
             String name = sc.nextLine();
             System.out.println("Zadejte autora (jmeno prijmeni)");
-            String author = sc.nextLine();
+            String author = sc.nextLine().replaceAll("\\d", "").trim();
             System.out.println("Zadejte kod");
             int code = sc.nextInt();
             System.out.println("Zadejte pocet stran");

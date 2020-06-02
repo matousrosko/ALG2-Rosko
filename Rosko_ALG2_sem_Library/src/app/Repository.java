@@ -24,14 +24,15 @@ import static utils.DateConvertor.simpleDateToUnix;
 public class Repository implements RepositoryInterface {
     //data
     private List<Book> books = new ArrayList<>();
+    private String InputFolder = "data";
+    private String InputFile = "data.txt";
 
     //methods
     @Override
     public void readData() {
         try {
-            String filePath = "data/data.txt";
             String[] bookData = new String[5];
-            File bookFile = new File(filePath);
+            File bookFile = new File(InputFolder, InputFile);
             Files.lines(bookFile.toPath()).forEach((t) -> { // checks each line
                 if (t.equals("#/#")) { //separator
                     books.add(new Book(bookData[0],
@@ -61,16 +62,16 @@ public class Repository implements RepositoryInterface {
                 }
             });
         } catch (IOException ex) {
-            Logger.getLogger(Repository.class.getName()).log(Level.SEVERE, null, ex);
+            System.out.println("Soubor neexistuje");
         }
     }
 
     @Override
     public void writeData() {
         try {
-            File f = new File("data/data.txt");
+            File f = new File(InputFolder, InputFile);
             f.createNewFile(); // former file gets rewritten
-            try (FileWriter fw = new FileWriter("data/data.txt", false)) {
+            try (FileWriter fw = new FileWriter(f, false)) {
                 for (Book book : books) {
                     StringBuilder sb = new StringBuilder();
                     sb.append("name").append("=").append(book.getName()).append(System.getProperty("line.separator"))
@@ -83,8 +84,7 @@ public class Repository implements RepositoryInterface {
                 }
             }
         } catch (IOException ex) {
-            Logger.getLogger(Repository.class.getName()).
-                    log(Level.SEVERE, null, ex);
+            System.out.println("Soubor neexistuje");
         }
     }
 

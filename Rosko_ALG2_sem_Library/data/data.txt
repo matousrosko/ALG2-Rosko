@@ -40,3 +40,15 @@ code=89110
 pages=210
 publicationDate=1265155200
 #/#
+name=Empty Bottle
+author=John Brickwall
+code=56588
+pages=200
+publicationDate=1033776000
+#/#
+name=Bus off the Road
+author=Jack White Black
+code=45612
+pages=201
+publicationDate=1030924800
+#/#
