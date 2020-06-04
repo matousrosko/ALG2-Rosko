@@ -24,15 +24,15 @@ import static utils.DateConvertor.simpleDateToUnix;
 public class Repository implements RepositoryInterface {
     //data
     private List<Book> books = new ArrayList<>();
-    private String InputFolder = "data";
-    private String InputFile = "data.txt";
+    private String inputFolder = "data";
+    private String inputFile = "data.txt";
 
     //methods
     @Override
     public void readData() {
         try {
             String[] bookData = new String[5];
-            File bookFile = new File(InputFolder, InputFile);
+            File bookFile = new File(inputFolder, inputFile);
             Files.lines(bookFile.toPath()).forEach((t) -> { // checks each line
                 if (t.equals("#/#")) { //separator
                     books.add(new Book(bookData[0],
@@ -69,7 +69,7 @@ public class Repository implements RepositoryInterface {
     @Override
     public void writeData() {
         try {
-            File f = new File(InputFolder, InputFile);
+            File f = new File(inputFolder, inputFile);
             f.createNewFile(); // former file gets rewritten
             try (FileWriter fw = new FileWriter(f, false)) {
                 for (Book book : books) {
